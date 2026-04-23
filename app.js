@@ -2,7 +2,7 @@ const http = require("http");
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Hello from Jenkins CI/CD...This is Anil testing pipeline ..Hello WATER FIRE ...🚀\n");
+  res.end("Hello from Jenkins CI/CD...This is Anil testing pipeline ..Date today ...🚀\n");
 });
 
 server.listen(3000, "0.0.0.0", () => {
